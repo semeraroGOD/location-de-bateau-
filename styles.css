@@ -217,6 +217,19 @@ h1 {
   gap: 1rem;
 }
 
+.boat-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.boat-gallery img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 1.2rem;
+  border: 1px solid var(--border);
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
