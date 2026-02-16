@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galerie | Infinite Yachting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav>
+        <a class="brand" href="index.html">
+            <svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="3">
+                <path d="M10 30c10-18 32-18 42 0s32 18 42 0" />
+                <path d="M10 30c10 18 32 18 42 0s32-18 42 0" />
+            </svg>
+            Infinite Yachting
+        </a>
+        <button class="nav-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="experiences.html">Expériences</a></li>
+            <li><a href="flotte.html">Flotte</a></li>
+            <li><a href="soirees.html">Soirées & Feux</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" style="min-height: 45vh; background-image: radial-gradient(circle at 20% 30%, rgba(0,209,255,0.25), transparent 40%), url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1600&q=80');">
+        <div class="hero-content">
+            <span class="hero-badge">Highlights</span>
+            <h1>Moments capturés sur la Riviera.</h1>
+            <p class="lead">Ambiance sunset, tables dressées, navigations nocturnes et feu d’artifice vue mer.</p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=900&q=80" alt="Feu d'artifice" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80" alt="Sunset deck" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80" alt="Serving" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Night sea" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" alt="Guests" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1493558116483-343ecf5b14c5?auto=format&fit=crop&w=900&q=80" alt="Yacht bow" loading="lazy">
+            </div>
+        </section>
+
+        <section class="cta" style="margin:3rem clamp(1.5rem,5vw,5.5rem); background:linear-gradient(120deg, rgba(0,209,255,0.15), rgba(255,159,67,0.15));">
+            <div>
+                <p class="eyebrow">Envie d’un shooting ?</p>
+                <h2>Photographe + drone disponibles sur chaque sortie.</h2>
+                <p>Nous collaborons avec des créateurs locaux pour immortaliser votre moment. Délai de livraison : 24h.</p>
+            </div>
+            <div class="cta-buttons">
+                <a class="btn primary" href="https://wa.me/33600000000" target="_blank" rel="noopener">Réserver</a>
+                <a class="btn ghost" href="contact.html">Demander un devis</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h3>Port d’attache</h3>
+            <p>Quai des Milliardaires, Port Vauban – Antibes</p>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <ul>
+                <li>WhatsApp : +33 6 00 00 00 00</li>
+                <li>Email : booking@infiniteyachting.fr</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/infinite_yachting_services06" target="_blank" rel="noopener">Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>© 2026 Infinite Yachting Services.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

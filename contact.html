@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Infinite Yachting Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav>
+        <a class="brand" href="index.html">
+            <svg viewBox="0 0 120 60" fill="none" stroke="currentColor" stroke-width="3">
+                <path d="M10 30c10-18 32-18 42 0s32 18 42 0" />
+                <path d="M10 30c10 18 32 18 42 0s32-18 42 0" />
+            </svg>
+            Infinite Yachting
+        </a>
+        <button class="nav-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="experiences.html">Expériences</a></li>
+            <li><a href="flotte.html">Flotte</a></li>
+            <li><a href="soirees.html">Soirées & Feux</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" style="min-height: 45vh; background-image: radial-gradient(circle at 80% 20%, rgba(255,159,67,0.25), transparent 40%), url('https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1600&q=80');">
+        <div class="hero-content">
+            <span class="hero-badge">Réservations privées</span>
+            <h1>Parlons de votre prochaine sortie.</h1>
+            <p class="lead">WhatsApp, email, formulaire : choisissez votre canal, nous répondons sous une heure.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="split">
+            <div class="card">
+                <h3>Coordonnées</h3>
+                <ul class="lux-list">
+                    <li>WhatsApp : <a href="https://wa.me/33600000000" target="_blank" rel="noopener">+33 6 00 00 00 00</a></li>
+                    <li>Email : <a href="mailto:booking@infiniteyachting.fr">booking@infiniteyachting.fr</a></li>
+                    <li>Instagram : @infinite_yachting_services06</li>
+                    <li>Port : Quai des Milliardaires, Port Vauban Antibes</li>
+                    <li>Horaires : 09h – 23h (flexible selon événements)</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Formulaire</h3>
+                <form class="contact-form">
+                    <input type="text" placeholder="Nom complet" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="WhatsApp" required>
+                    <textarea rows="5" placeholder="Décrivez la date, le nombre d’invités, vos envies (sunset, fireworks, etc.)." required></textarea>
+                    <button type="submit">Envoyer la demande (démo)</button>
+                </form>
+                <p class="tiny" style="color:var(--muted);">Formulaire statique pour la démo — confirmation finale via WhatsApp.</p>
+            </div>
+        </section>
+
+        <section class="split">
+            <div>
+                <h3>Logistique</h3>
+                <ul class="lux-list">
+                    <li>Transferts chauffeur / V-Class / Tesla.</li>
+                    <li>Service sécurité discrète sur demande.</li>
+                    <li>Coordination avec restaurants & beach clubs.</li>
+                </ul>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5755.25752407941!2d7.129!3d43.583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdc4d4a7a9c8e3%3A0x4d3f4a7f4c7d2f0!2sPort%20Vauban!5e0!3m2!1sfr!2sfr!4v1708115555555" width="100%" height="320" style="border:0;border-radius:1.2rem;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <h3>Port d’attache</h3>
+            <p>Quai des Milliardaires, Port Vauban – Antibes</p>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <ul>
+                <li>WhatsApp : +33 6 00 00 00 00</li>
+                <li>Email : booking@infiniteyachting.fr</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/infinite_yachting_services06" target="_blank" rel="noopener">Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>© 2026 Infinite Yachting Services.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
